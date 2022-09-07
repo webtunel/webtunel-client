@@ -4,24 +4,18 @@ webtunel exposes your localhost to the world for easy testing and sharing! No ne
 
 Great for working with browser testing tools like browserling or external api callback services like twilio which require a public url for callbacks.
 
-## Quickstart
-
-```
-npx webtunel --port 8000
-```
-
 ## Installation
 
 ### Globally
 
 ```
-npm install -g webtunel
+npm install -g https://github.com/webtunel/webtunel-client
 ```
 
 ### As a dependency in your project
 
 ```
-yarn add webtunel
+yarn add https://github.com/webtunel/webtunel-client
 ```
 
 ## CLI usage
